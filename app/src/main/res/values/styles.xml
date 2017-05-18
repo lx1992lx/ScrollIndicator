@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ScrollIndicator">
+        <attr name="si_outRadius" format="dimension"/>
+        <attr name="si_innerRadius" format="dimension"/>
+        <attr name="si_circlePadding" format="dimension"/>
+        <attr name="si_color" format="color"/>
+    </declare-styleable>
+</resources>
